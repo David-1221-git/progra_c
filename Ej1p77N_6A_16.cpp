@@ -1,3 +1,10 @@
+/*Nombre del proyecto:Ejercicio 1 pág 77 Numero 1_v1
+Elaboro:Merino Dominguez David  No Lista:16
+Fecha:10/octubre/2025        No. Vercion:1
+Descripcion:Leer un número entero obtenido al lanzar un dado de seis caras e imprimir el número en 
+letras de la cara opuesta. En las caras opuestas de un dado de seis caras están los números: 1-6, 2-5 
+y 3-4. Si el número del dado capturado es menor que 1 o 
+mayor que 6, se mostrará: “Un DADO no tiene ese número”*/
 #include <stdio.h>
 
 int main() {

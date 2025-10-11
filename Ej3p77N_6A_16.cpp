@@ -1,3 +1,9 @@
+/*Nombre del proyecto:Ejercicio 3 pág 77 Numero 1_v1
+Elaboro:Merino Dominguez David  No Lista:16
+Fecha:10/octubre/2025        No. Vercion:1
+Descripcion:En un supermercado, se realizan descuentos por las compras a partir de unas bolitas de colores:
+Verde 20%, amarilla 25%, negra del 30%; la blanca no aplica ningún descuento. 
+Leer el importe de la compra y el color de la bolita e imprimir lo que debe pagar dicho cliente.*/
 #include <stdio.h>
 
 int main() {

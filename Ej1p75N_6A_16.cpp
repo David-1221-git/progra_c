@@ -1,3 +1,10 @@
+/*Nombre del proyecto:Ejercicio 1 pág 75 Numero 1_v1
+Elaboro:Merino Dominguez David  No Lista:16
+Fecha:10/octubre/2025        No. Vercion:1
+Descripcion:Calcular la paga de un trabajador según sean las horas trabajadas y el precio por hora para el trabajo que realice, entre las siguientes opciones:
+a) Intendencia: $35 b) Asistente: $50 c) Administrativo: $80
+d) Directivo: $120 e) Gerente: $150*/
+
 #include <stdio.h>
 
 int main() {
