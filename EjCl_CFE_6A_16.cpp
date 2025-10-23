@@ -1,4 +1,7 @@
-/*Realizar un programa que calcule el pago de n clientes de su recibo de luz de acuerdo con el consumo.
+/*Nombre del proyecto:Ejercicio 3 pág 77 Numero 1_v1
+Elaboro:Merino Dominguez David  No Lista:16
+Fecha:20/octubre/2025        No. Vercion:1
+Descripcion:Realizar un programa que calcule el pago de n clientes de su recibo de luz de acuerdo con el consumo.
 Checar el recibo de laCFE.
 */
 #include <stdio.h>
