@@ -20,7 +20,7 @@ int main() {
                 if(cali[i][j]<=10 && cali[i][j]>=0){
                     prom = prom + cali[i][j];
                 }else{
-                    printf("La calificacion porporcionada esta mal intente todo de nuevo");
+                    printf("\nLa calificacion porporcionada esta mal intente todo de nuevo\n");
                     return 1;
                 }
             }
