@@ -44,10 +44,7 @@ int main() {
     for (i = 0; i < fil; i++) {
         printf("Estudiante %d:\n", i + 1);
         for (j = 0; j < ACTIVIDADES; j++) {
-            printf("  Actividad %d: calif=%d, prom=%d\n",
-                   j + 1,
-                   datos[i][j][0],
-                   datos[i][j][1]);
+            printf("  Actividad %d: calif=%d, prom=%d\n",j + 1,datos[i][j][0],datos[i][j][1]);
         }
         printf("\n");
     }
