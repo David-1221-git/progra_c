@@ -1,19 +1,19 @@
+/*Nombre del proyecto:Multiplicacion de matrices 1_v1
+Elaboro:Merino Dominguez David  No Lista:16
+Fecha:06/Noviembre/2025        No. Vercion:1
+Descripcion:Realizar un código de multiplicación de dos matrices de máximo 10X10.*/
 #include <stdio.h>
 
 #define MAX 10
 
 int main() {
     int A[MAX][MAX], B[MAX][MAX], C[MAX][MAX];
-    int m, q, p, n; // m x q y p x n
-
-    // Pedir tamaño de la primera matriz
+    int m, q, p, n;
     printf("=== PRIMERA MATRIZ ===\n");
     printf("Ingrese número de filas: ");
     scanf("%d", &m);
     printf("Ingrese número de columnas: ");
     scanf("%d", &q);
-
-    // Pedir tamaño de la segunda matriz
     printf("\n=== SEGUNDA MATRIZ ===\n");
     printf("Ingrese número de filas: ");
     scanf("%d", &p);
@@ -26,7 +26,6 @@ int main() {
         return 1;
     }
 
-    // Pedir datos de la primera matriz elemento por elemento
     printf("\nIngrese los elementos de la primera matriz (%dx%d):\n", m, q);
     for(int i = 0; i < m; i++) {
         for(int j = 0; j < q; j++) {
@@ -35,7 +34,6 @@ int main() {
         }
     }
 
-    // Pedir datos de la segunda matriz elemento por elemento
     printf("\nIngrese los elementos de la segunda matriz (%dx%d):\n", p, n);
     for(int i = 0; i < p; i++) {
         for(int j = 0; j < n; j++) {
@@ -44,14 +42,12 @@ int main() {
         }
     }
 
-    // Inicializar matriz resultado
     for(int i = 0; i < m; i++) {
         for(int j = 0; j < n; j++) {
             C[i][j] = 0;
         }
     }
 
-    // Multiplicar matrices
     for(int i = 0; i < m; i++) {
         for(int j = 0; j < n; j++) {
             for(int k = 0; k < q; k++) {
